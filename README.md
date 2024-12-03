@@ -34,36 +34,8 @@ JSP para la generación dinámica de contenido
 Base de Datos:
 PostgreSQL
 Servidor:
-Apache Tomcat 10
-Estructura del Proyecto
-bash
-Copiar código
-HoroscopoChino/
-│
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   ├── com.edutecno.modelo/        # Clases del modelo (Usuario, Horóscopo, etc.)
-│   │   │   ├── com.edutecno.dao/           # Clases de acceso a datos (DAO)
-│   │   │   ├── com.edutecno.servlets/      # Servlets (lógica del negocio)
-│   │   │   └── com.edutecno.procesaconexion/ # Clase para la conexión a la base de datos
-│   │   ├── resources/
-│   │   └── webapp/
-│   │       ├── assets/                     # Recursos estáticos (imágenes, estilos, etc.)
-│   │       │   ├── css/
-│   │       │   │   └── estilos.css         # Archivo CSS personalizado
-│   │       │   └── img/                    # Imágenes de los signos del zodiaco
-│   │       ├── WEB-INF/
-│   │       │   └── web.xml                 # Configuración del despliegue
-│   │       └── *.jsp                       # Páginas JSP (index, consulta, usuario, etc.)
-│
-├── README.md
-└── pom.xml                                 # Archivo de configuración de Maven
-Requisitos del Sistema
-Java: JDK 11 o superior.
-Servidor: Apache Tomcat 10 o superior.
-Base de Datos: PostgreSQL (con una base de datos configurada para el horóscopo chino).
-Navegador Web: Compatible con HTML5 y Bootstrap.
+Apache Tomcat 10.1
+
 Configuración
 Clonar el Proyecto:
 
@@ -79,7 +51,7 @@ Ejecutar el Proyecto:
 
 Compilar el proyecto en tu IDE.
 Desplegarlo en Apache Tomcat.
-Acceder en el navegador a: http://localhost:8080/HoroscopoChino.
+Acceder en el navegador a: http://localhost:8090/HoroscopoChino.
 Características Destacadas
 Diseño Responsivo: La aplicación se adapta a diferentes tamaños de pantalla gracias a Bootstrap.
 Interactividad Dinámica: Uso de modales para mensajes y confirmaciones.
